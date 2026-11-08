@@ -1,0 +1,50 @@
+# Gradle
+.gradle/
+build/
+gradle-*-bin.zip
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+*.launch
+
+# Minecraft / Fabric / Loom run artifacts
+run/
+*.log
+logs/
+crash-reports/
+remappedSrc/
+loom-cache/
+
+# Generated at runtime by the mod (inside the game directory)
+config/minecraft-mcp.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Build and test artifacts
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+*-sources.jar
+
+# Output of scripts/smoke_mcp.py
+scripts/out/
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Local overrides
+*.local

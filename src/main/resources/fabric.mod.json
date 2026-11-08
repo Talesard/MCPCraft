@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "minecraft-mcp",
+	"version": "${version}",
+	"name": "Minecraft MCP",
+	"description": "Built-in MCP server: AI agents can build, fill blocks, spawn mobs, grant items, apply effects and control the world.",
+	"authors": [
+		"veter"
+	],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.mcpcraft.McpCraftMod"
+		],
+		"client": [
+			"dev.mcpcraft.client.McpCraftClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
